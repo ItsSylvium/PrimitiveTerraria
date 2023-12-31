@@ -1,0 +1,48 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	Cum: {
+		DisplayName: Cum
+		Tooltip: ""
+	}
+
+	PebbleItem: {
+		DisplayName: Pebble Item
+		Tooltip: ""
+	}
+
+	PebblePlacer: {
+		DisplayName: Pebble Placer
+		Tooltip: ""
+	}
+
+	Pebble_Item: {
+		DisplayName: Pebble_ Item
+		Tooltip: ""
+	}
+
+	Pebble_Placer: {
+		DisplayName: Pebble_ Placer
+		Tooltip: ""
+	}
+
+	Pebble: {
+		DisplayName: Pebble
+		Tooltip: ""
+	}
+
+	StickItem: {
+		DisplayName: Stick Item
+		Tooltip: ""
+	}
+
+	Stick: {
+		DisplayName: Stick
+		Tooltip: ""
+	}
+
+	"Split Stone Axe": {
+		DisplayName: Split  Stone  Axe
+		Tooltip: ""
+	}
+}
