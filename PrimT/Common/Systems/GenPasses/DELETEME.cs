@@ -1,4 +1,4 @@
-﻿using Terraria;
+﻿/*using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.WorldBuilding;
@@ -48,3 +48,4 @@ namespace PrimT.Common.Systems.GenPasses
 		}
     }
 }
+*/
