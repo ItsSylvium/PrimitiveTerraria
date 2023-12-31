@@ -1,0 +1,3 @@
+displayName = Primitive Terraria
+author = Sylvium
+version = 0.1
