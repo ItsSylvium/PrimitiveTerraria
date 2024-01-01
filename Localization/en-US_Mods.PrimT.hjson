@@ -46,3 +46,5 @@ Items: {
 		Tooltip: ""
 	}
 }
+
+Projectiles.PebbleProj.DisplayName: Pebble Proj

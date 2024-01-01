@@ -12,7 +12,8 @@ namespace PrimT.Content.Items
         public override void SetDefaults()
         {
             Item.damage = 3;
-            Item.axe = 20;
+            Item.axe = 5;
+            Item.knockBack = 4;
             Item.useTime = 30;
             Item.useAnimation = 30;
             Item.useTurn = true;
