@@ -1,4 +1,5 @@
 using Microsoft.Xna.Framework;
+using System.Collections.Generic;
 using Terraria;
 using Terraria.GameContent.ObjectInteractions;
 using Terraria.ID;
@@ -26,7 +27,6 @@ public class StickTile : ModTile
         RegisterItemDrop(ModContent.ItemType<Items.StickItem>());
         AddMapEntry(new Color(123, 123, 123));
     }
-
     public override bool RightClick(int i, int j)
     {
         WorldGen.KillTile(i, j);

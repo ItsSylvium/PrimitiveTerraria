@@ -1,3 +1,4 @@
+using PrimT.Content.Proj;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -10,12 +11,18 @@ public class StickItem : ModItem
     public override void SetDefaults()
     {
 
-        Item.DamageType = DamageClass.Throwing;
         Item.width = 16;
         Item.height = 14;
         Item.maxStack = 99;
 
+        Item.noMelee = true;
         Item.damage = 3;
+        Item.DamageType = DamageClass.Throwing;
+        Item.shoot = ModContent.ProjectileType<Stick_Proj>();
+        Item.shootSpeed = 8.5f;
+
+        Item.consumable = true;
+
         Item.useTime = 20;
         Item.useAnimation = 20;
         Item.useStyle = ItemUseStyleID.Swing;

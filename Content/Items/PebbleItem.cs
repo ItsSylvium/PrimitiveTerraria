@@ -11,18 +11,20 @@ public class PebbleItem : ModItem
     public override void SetDefaults()
     {
 
-        Item.DamageType = DamageClass.Throwing;
         Item.width = 16;
         Item.height = 14;
         Item.maxStack = 99;
 
+        Item.noMelee = true;
         Item.damage = 3;
-        Item.shoot = ModContent.ProjectileType<PebbleProj>();
-        Item.shootSpeed = 7.5f;
-
         Item.DamageType = DamageClass.Throwing;
-        Item.useTime = 20;
-        Item.useAnimation = 20;
+        Item.shoot = ModContent.ProjectileType<Pebble_Proj>();
+        Item.shootSpeed = 8.5f;
+
+        Item.consumable = true;
+
+        Item.useTime = 16;
+        Item.useAnimation = 16;
         Item.useStyle = ItemUseStyleID.Swing;
     }
 }
