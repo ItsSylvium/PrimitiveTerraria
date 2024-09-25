@@ -45,6 +45,46 @@ Items: {
 		DisplayName: Split  Stone  Axe
 		Tooltip: ""
 	}
+
+	CookingPit: {
+		DisplayName: Cooking Pit
+		Tooltip: ""
+	}
+
+	"Split Maul": {
+		DisplayName: Split  Maul
+		Tooltip: ""
+	}
+
+	SplitStoneAxe: {
+		DisplayName: Split Stone Axe
+		Tooltip: ""
+	}
+
+	SplitMaul: {
+		DisplayName: Split Maul
+		Tooltip: ""
+	}
+
+	StoneAxe: {
+		DisplayName: Stone Axe
+		Tooltip: ""
+	}
+
+	StoneMaul: {
+		DisplayName: Stone Maul
+		Tooltip: ""
+	}
+
+	Platinum_BattleAxe: {
+		DisplayName: Platinum_ Battle Axe
+		Tooltip: ""
+	}
 }
 
-Projectiles.PebbleProj.DisplayName: Pebble Proj
+Projectiles: {
+	PebbleProj.DisplayName: Pebble Proj
+	Stick_Proj.DisplayName: Stick_ Proj
+	Pebble_Proj.DisplayName: Pebble_ Proj
+	Platinum_BattleAxe_Proj.DisplayName: Platinum_ Battle Axe_ Proj
+}

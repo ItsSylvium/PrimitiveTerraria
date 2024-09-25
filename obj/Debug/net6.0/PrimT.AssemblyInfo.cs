@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+829a9f2b005d7037e32b246f75ec5ffb032e6951")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
